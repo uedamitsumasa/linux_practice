@@ -1,0 +1,99 @@
+1  docker stop centos7
+    2  docker stop centos7
+    3  docker start centos7
+    4  docker exec -it centos7 /bin/bash
+    5  ls /
+    6  ls /usr
+    7  pwd
+    8  cd /root
+    9  pwd
+   10  cd usr
+   11  cd /usr
+   12  cd /home
+   13  mkdir test1
+   14  ls
+   15  cd /home
+   16  mkdir -p test2/test3
+   17  ls test2
+   18  cd /home
+   19  touch test1/index.php
+   20  ls test1
+   21  cd /home/test1 && ls
+   22  cd /home/test1
+   23  cp index.php copy.php
+   24  ls
+   25  cd /home
+   26  cp -r test1 test4
+   27  ls
+   28  ls test4
+   29  cd /home
+   30  mv test2/test3 test3
+   31  ls
+   32  cd /home
+   33* mv test4 test1_cop
+   34  ls
+   35  ls test1
+   36  rm test1/copy.php
+   37  ls test
+   38  ls test
+   39  ls test1
+   40  cd /home
+   41  rm -r test3
+   42  ls
+   43  rm test1_copy/*.php
+   44  cat README.md
+   45  echo '# Hello World' > README.md
+   46  cat README.md
+   47  echo '# Server Lesson' > README.md
+   48  cat README.md
+   49  echo 'Linux Practice' >> README.md
+   50  echo '-----------------' >> README.md
+   51  cat README.md
+   52  vi README.md
+   53  vi README.md
+   54  cd /root
+   55  mkdir server_lesson && cd server_lesson
+   56  yum update -y && yum -y install git
+   57  git version
+   58  git init
+   59  touch first.txt
+   60  mkdir -p server_lesson/linux_practice1/public
+   61  touch server_lesson/linux_practice1/public/index.php
+   62  ls -l server_lesson/linux_practice1/public
+   63  cp server_lesson/linux_practice1/public/index.php server_lesson/linux_practice1/public/index_bk.php
+   64  ls server_lesson/linux_practice1/public
+   65  cp -r server_lesson/linux_practice1/public server_lesson/linux_practice1/tmp
+   66  ls
+   67  cd
+   68  ls
+   69  cd serverlesson
+   70  cd server_lesson
+   71  rm server_lesson/linux_practice1/tmp/index_bk.php
+   72  ls server_lesson/linux_practice1/tmp
+   73  touch server_lesson/README.md
+   74  ls
+   75  vi server_lesson/README.md
+   76  ls
+   77  cd server_lesson/linux_practice2
+   78  ls
+   79  cd
+   80  mkdir -p server_lesson/linux_practice2/documents
+   81  cd server_lesson/linux_practice2/documents
+   82  touch gizumo{01..50}.md
+   83  mkdir -p server_lesson/linux_practice2/trash
+   84  mv server_lesson/linux_practice2/documents/gizumo{20..40}.md server_lesson/linux_practice2/trash/
+   85  ls server_lesson/linux_practice2/documents/
+   86  ls
+   87  mv gizumo{20..40}.md server_lesson/linux_practice2/trash/
+   88  cd linux_practice2
+   89  cd linux_practice2
+   90  cd
+   91  cd linux_practice2
+   92  ls
+   93  cd server_lesson
+   94  ls
+   95  cd linux_practice2
+   96  touch .gitignore
+   97  vi .gitignore
+   98  history 300
+
